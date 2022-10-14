@@ -6,13 +6,10 @@
 
 /**
  *
- *  * main - Determine if a random number is positive, negative or zero.
+ * main - Determine if a random number is positive, negative or zero.
+ * Return: 0 on success
  *
- *  (*
- *
- *   * Return: 0 on success
- *
- *    */
+ */
 
 int main(void)
 
