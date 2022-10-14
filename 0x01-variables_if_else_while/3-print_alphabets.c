@@ -1,40 +1,44 @@
 #include <stdio.h>
 
-/* main - main block
- *  Description: Print the alphabet in lowercase and uppercase on same line
- *   using putchar only thrice, followed by new line
- *    Return: 0      */
+/**
+ *
+ * main - Prints the alphabet in lowercase, then in uppercase.
+ *
+ * Return: 0 on success
+    */
 
 int main(void)
 
 {
 
-	char alpha = 'a';
+		char c = 'a';
 
-	while (alpha <= 'z')
+			char d = 'A';
 
-	{
 
-		putchar(alpha);
 
-		alpha++;
+				while (c <= 'z')
 
-	}
+						{
 
-	alpha = 'A';
+									putchar(c);
 
-	while (alpha <= 'Z')
+											c++;
 
-	{
+												}
 
-		putchar(alpha);
+					while (d <= 'Z')
 
-		alpha++;
+							{
 
-	}
+										putchar(d);
 
-	putchar('\n');
+												d++;
 
-	return (0);
+													}
 
-}
+						putchar('\n');
+
+							return (0);
+
+
