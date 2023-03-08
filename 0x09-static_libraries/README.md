@@ -1,0 +1,1 @@
+Mw static library README 
